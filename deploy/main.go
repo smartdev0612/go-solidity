@@ -26,7 +26,7 @@ func main() {
 		log.Fatal(err)
 	}
 
-	client, err := ethclient.Dial("https://kovan.infura.io/v3/4badaf12963a4dd28d67d5a57e71a75f")
+	client, err := ethclient.Dial("https://kovan.infura.io/v3/project_id")
 	if err != nil {
 		log.Fatal(err)
 	}
